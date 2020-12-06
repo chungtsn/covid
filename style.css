@@ -200,6 +200,7 @@ body {
   border: 1px solid #696969;
   padding: 9px 15px;
   white-space: nowrap;
+  color: black;
 }
 .container .statistics .table > tbody > tr > td {
   font-size: 18px;
