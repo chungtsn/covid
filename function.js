@@ -40,10 +40,10 @@ axios
   .then(
     axios.spread(function (global, countries) {
       //global
-      console.log("%c全球 Global", "color: #fb5e53");
-      console.log("確診 Cases", global.data.cases);
-      console.log("死亡 Deaths", global.data.deaths);
-      console.log("康復 Recovered", global.data.recovered);
+      console.log("%c全球 Thế giới", "color: #fb5e53");
+      console.log("確診 Ca nhiễm", global.data.cases);
+      console.log("死亡 Chia tay", global.data.deaths);
+      console.log("康復 Vẫn còn nhậu", global.data.recovered);
 
       var totalCases = global.data.cases.toLocaleString();
       var totalDeaths = global.data.deaths.toLocaleString();
