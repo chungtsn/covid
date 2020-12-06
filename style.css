@@ -38,6 +38,7 @@ body {
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  width: initial;
 }
 .preloader__content {
   position: absolute;
